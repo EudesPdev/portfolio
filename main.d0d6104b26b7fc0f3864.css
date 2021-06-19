@@ -430,7 +430,8 @@ mark {
 .img-fluid,
 .img-thumbnail {
   max-width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: contain;
 }
 .img-thumbnail {
   padding: 0.25rem;
